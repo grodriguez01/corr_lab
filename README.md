@@ -21,12 +21,12 @@
                         FILES 
         Name                                Purpose 
         snap_init.py                        Uploads fpg file and initalizes adcs
-        snap_cross_plot.py                  Plots correlation and phase. #Need to implement to gui. 
+        snap_cross_plot.py                  Plots correlation and phase. 
         adc_power_meter_v0.1.py             Display power levels of adc cores. 
         bb_ab_corr.py                       Plots correlation of bb and ab. 
         corr_plotter.py                     Plots correlation of bb and ab and phase.
         capture_data.py                     Saves data of adc chips #need to interleave them before saving.
-        corr_logger.py                      Saves raw corr data of fpga registers. #Need to implement to gui.  
+        corr_logger.py                      Saves raw corr data of fpga registers.
         mod_v5_tut_corr_2019-12-03_1550.fpg bitcode for SNAP, ADC snapshot stores adc data in -1/1 
         mod_v5_tut_corr_2019-12-17_1740.fpg bitcode for SNAP, ADC snapshot stores adc data in -127/128 
         
